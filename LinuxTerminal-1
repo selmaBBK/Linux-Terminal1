@@ -1,0 +1,42 @@
+MacBook-Pro-de-Selma:~ selma$ pwd
+/Users/selma
+MacBook-Pro-de-Selma:~ selma$ cd ..
+MacBook-Pro-de-Selma:Users selma$ pwd
+/Users
+MacBook-Pro-de-Selma:Users selma$ cd ..
+MacBook-Pro-de-Selma:/ selma$ pwd
+/
+MacBook-Pro-de-Selma:/ selma$ ls
+Applications	Volumes		etc		sbin
+Library		bin		home		tmp
+System		cores		opt		usr
+Users		dev		private		var
+MacBook-Pro-de-Selma:/ selma$ cd home
+MacBook-Pro-de-Selma:home selma$ ls
+MacBook-Pro-de-Selma:home selma$ ls -a
+.	..
+MacBook-Pro-de-Selma:home selma$ cd /home/selma
+-bash: cd: /home/selma: No such file or directory
+MacBook-Pro-de-Selma:home selma$ pwd
+/home
+MacBook-Pro-de-Selma:home selma$ ls
+MacBook-Pro-de-Selma:home selma$ cd ..
+MacBook-Pro-de-Selma:/ selma$ ls
+Applications	Volumes		etc		sbin
+Library		bin		home		tmp
+System		cores		opt		usr
+Users		dev		private		var
+MacBook-Pro-de-Selma:/ selma$ cd Applications
+MacBook-Pro-de-Selma:Applications selma$ ls
+AdBlock.app		Messenger.app		Utilities
+Class Timetable.app	Pages.app		WhatsApp.app
+Evernote.app		Safari.app
+Mail for Gmail.app	Slack.app
+MacBook-Pro-de-Selma:Applications selma$ ls -a
+.			Class Timetable.app	Safari.app
+..			Evernote.app		Slack.app
+.DS_Store		Mail for Gmail.app	Utilities
+.localized		Messenger.app		WhatsApp.app
+AdBlock.app		Pages.app
+MacBook-Pro-de-Selma:Applications selma$ cd ..
+MacBook-Pro-de-Selma:/ selma$ 
