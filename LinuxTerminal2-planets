@@ -1,0 +1,57 @@
+selma@MBP-de-Selma shell % mkdir -p planets/real planets/fictional planets/inhabited
+
+selma@MBP-de-Selma shell % ls
+planets
+selma@MBP-de-Selma shell % cd planets
+selma@MBP-de-Selma planets % ls
+fictional	inhabited	real
+selma@MBP-de-Selma planets % cd real
+selma@MBP-de-Selma real % mkdir -p terrestrial gas-giants dwarf-planets
+
+selma@MBP-de-Selma real % cd ..
+selma@MBP-de-Selma ~ % cd
+selma@MBP-de-Selma ~ % ls
+Desktop		Downloads	Movies		Pictures	quests
+Documents	Library		Music		Public
+
+selma@MBP-de-Selma ~ % cd quests
+selma@MBP-de-Selma quests % cd shell
+selma@MBP-de-Selma shell % ls
+planets
+selma@MBP-de-Selma shell % cd planets
+selma@MBP-de-Selma planets % mv mercury.jpeg venus.jpeg earth.jpeg mars.jpeg jupiter.jpeg saturn.jpeg uranus.jpeg neptune.jpeg real 
+selma@MBP-de-Selma planets % mv arrakis.jpeg cybertron.jpeg coruscant.jpeg fictional
+selma@MBP-de-Selma planets % cp real/earth.jpeg inhabited
+selma@MBP-de-Selma planets % cp fictional/arrakis.jpeg fictional/coruscant.jpeg fictional/cybertron.jpeg inhabited
+selma@MBP-de-Selma planets % mv pluto.jpeg real/drawf-planets
+selma@MBP-de-Selma planets % cd real
+selma@MBP-de-Selma real % mv saturn.jpeg jupiter.jpeg gas-giants
+selma@MBP-de-Selma real % mv earth.jpeg terrestrial
+selma@MBP-de-Selma real % cd ..
+selma@MBP-de-Selma planets % rm -r real/dwarf-planets
+selma@MBP-de-Selma planets % cd ..
+selma@MBP-de-Selma shell % find planets
+planets
+planets/.DS_Store
+planets/real
+planets/real/mercury.jpeg
+planets/real/.DS_Store
+planets/real/gas-giants
+planets/real/gas-giants/jupiter.jpeg
+planets/real/gas-giants/saturn.jpeg
+planets/real/venus.jpeg
+planets/real/mars.jpeg
+planets/real/terrestrial
+planets/real/terrestrial/earth.jpeg
+planets/real/uranus.jpeg
+planets/real/neptune.jpeg
+planets/inhabited
+planets/inhabited/earth.jpeg
+planets/inhabited/arrakis.jpeg
+planets/inhabited/cybertron.jpeg
+planets/inhabited/coruscant.jpeg
+planets/fictional
+planets/fictional/arrakis.jpeg
+planets/fictional/cybertron.jpeg
+planets/fictional/coruscant.jpeg
+
